@@ -1,0 +1,109 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header-img-container">
+                <img class="fire-img" src="images/fire.jpg" alt="A wood fired pizza oven">
+                <h1 class="header-text">Oh,<br>Belle<br>Pizze</h1>
+            </div>
+            <div class="sub-header-container">
+                <img class="welder-img logos" src="images/welder.png">
+                <h1 class="sub-header-text">Ordering App</h1>
+                <img class="sub-img logos" src="images/sub.png">
+            </div>
+        </header>
+        
+            <section class="menu-items-container" id="menu-items-container">
+                
+                <!-- MENU ITEMS WILL BE SHOWN HERE THROUGH JS-->
+                
+            </section>
+            
+            <section>
+                
+                <div class="order-container hidden" id="order-container">
+                   <h2 class="order-text">Your Order</h2>
+                   
+                        <div class="chart-item" id="chart-item">
+                        <!-- ORDER ITEMS WILL BE SHOWN HERE THROUGH JS-->
+                        </div>
+                        
+                        <div class="chart-total">
+                            <h2 class="total-order">Total Price:</h2>
+                            <h2 class="total-price" id="total-price">
+                                <!-- TOTAL PRICE WILL BE SHOWN HERE THROUGH JS--> 
+                            </h2>
+                        </div>
+                        
+                    <button class="order-button" id="order-btn">Complete Order</button>
+                    <button class="clear-order-button" id="clear-order-btn">Clear Order</button>
+                </div>
+                
+            </section>  
+            
+            <div class="hidden payment-form-container" id="payment-form-container">
+                    <div class="flex">
+                    <h2>Secure Card Payment</h2>
+                    <button class="exit" id="exit-button">X</button>
+                    </div>
+                    <h3>Enter Card Details</h3>
+                <form id="payment-form">
+                    <div class="space-btw">
+                    <label for="fullName">Full Name</label>
+                    <input id="fullName" 
+                           type="text" 
+                           placeholder="Full Name" 
+                           alt="Full Name"
+                           name="fullName"
+                           required
+                           >
+                    </div>
+                    <div class="space-btw">
+                    <label for="cardNumber">Card Number</label>
+                    <input id="cardNumber" 
+                           type="number" 
+                           placeholder="1234 1234 1234 1234" 
+                           alt="Card Number"
+                           name="cardNumber"
+                           required>
+                    </div>
+                    <div class="space-btw">
+                    <label for="expiryDate">Expiry Date</label>
+                    <input id="expiryDate" 
+                           type="month" 
+                           placeholder="mm/yy" 
+                           alt="Expiry Date"
+                           name="expiryDate"
+                           required>
+                    </div>
+                    <div class="space-btw">
+                    <label for="cvv">CVV</label>
+                    <input id="cvv" 
+                           type="number" 
+                           min="000" max="999"
+                           placeholder="123" 
+                           alt="Card CVV"
+                           name="cvv"
+                           required>
+                    </div>
+                    <button class="payment-button" id="payment-btn">Confirm Payment</button>
+                </form>
+            </div>
+            
+            <div class="hidden order-confirmation-message" id="order-confirmation-message">
+                    <!-- ORDER CONFIRMATION MESSAGE WILL BE SHOWN HERE THROUGH JS-->     
+            </div>
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
+
+ <!-- 
+                        
+-->

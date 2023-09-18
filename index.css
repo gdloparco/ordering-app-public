@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    font-family: 'Belanosima', sans-serif;
+} 
+
+
+/* Header */
+
+
+.fire-img {
+    width: 100%;
+    height: auto;
+}
+
+.header-image-container {
+  position: relative;
+}
+
+.header-text {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header-text {
+  position: absolute; /* Position the text absolutely within the container */
+  top: 0%; /* Adjust the vertical position as needed */
+  left: 0%; /* Adjust the horizontal position as needed */
+  color: white; /* Set the text color */
+  padding: 10px; /* Optional: Add padding around the text */
+  margin: 10px auto auto 10px;
+  border: white 2px solid;
+  border-radius: 20px;
+}
+
+/* Sub-header */
+
+.sub-header-container {
+    display: flex;
+    justify-content: center;
+    background-color: #03070c;
+}
+
+.sub-header-text {
+    color: whitesmoke;
+    font-weight: 400;
+    border-radius: 20px;
+    border: 2px white solid;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.logos {
+    height: 60px;
+    opacity: 70%;
+    margin: auto;
+}
+
+
+/* Menu Items */
+
+
+.pizza-container, .ice-cream-container, .beer-container {
+    border-bottom: 1.5px solid #03070c;
+    padding: 10px 0;
+}
+
+.items-container {
+    display: flex;
+    align-items: center;
+}
+
+.item-name, .items-text p {
+    color: #03070c;
+    margin: 5px 0 5px 20px;
+}
+
+.pizza-img, .beer-img, .ice-cream-img {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #03070c;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 5px 0 5px 10px;
+}
+
+.items-container button {
+    margin: auto 15px auto auto;
+    border-radius: 80%;
+    border: 1.5px solid #03070c;
+    font-weight: 400;
+    font-size: 25px;
+    background-color: white;
+}
+
+.items-container button:hover {
+    margin: auto 15px auto auto;
+    border-radius: 40%;
+    border: 1.5px solid #03070c;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/* Your Order */
+
+
+.order-text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.item-order, .item-price {
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.single-item {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 10px;
+}
+
+.chart-item {
+}
+
+.chart-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 400px;
+    margin: auto 10px;
+    border-top: 2px #03070c solid;
+}
+
+.order-button {
+    color: whitesmoke;
+    background-color: #03070c;
+    font-weight: 400;
+    font-size: 20px;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid #03070c;
+    padding: 7px;
+    display: block;
+    margin: 20px auto;
+    font-family: 'Belanosima', sans-serif;
+    align-content: center;
+}
+
+.order-button:hover {
+    color: #03070c;
+    background-color: whitesmoke;
+    font-weight: 400;
+    font-size: 20px;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid #03070c;
+    padding: 7px;
+    display: block;
+    margin: 20px auto;
+    font-family: 'Belanosima', sans-serif;
+    align-content: center;
+    cursor: pointer;
+}
+
+.clear-order-button {   
+    color: whitesmoke;
+    background-color: #03070c;
+    font-weight: 400;
+    font-size: 17px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #03070c;
+    padding: 7px;
+    display: block;
+    margin: 20px auto;
+    font-family: 'Belanosima', sans-serif;
+    align-content: center;
+}
+
+.clear-order-button:hover {
+    color: #03070c;
+    background-color: whitesmoke;
+    font-weight: 400;
+    font-size: 17px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #03070c;
+    padding: 7px;
+    display: block;
+    margin: 20px auto;
+    font-family: 'Belanosima', sans-serif;
+    align-content: center;
+    cursor: pointer;
+}
+
+
+/* Payment Form */
+
+.payment-form-container .exit {
+    width: 30px;
+    display: block;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#exit-button:hover{
+    width: 30px;
+    display: block;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;    
+}
+
+
+.payment-form-container {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+    height: 90%;
+    width: 90%;
+    text-align: center;
+    border: 2px solid #03070c;
+    border-radius: 10px;
+}
+
+.payment-form-container form {
+    text-align: left;
+    padding: 10px;
+}
+
+.payment-form-container button {
+    display: block;
+    margin: auto;
+}
+
+.payment-form-container h3 {
+        font-size: 18px;
+        border-bottom: 2px solid #03070c;
+        padding-bottom: 10px;
+}
+
+.payment-form-container label {
+        font-size: 15px;
+        margin: 12px;
+}
+
+.space-btw {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.payment-form-container input {
+        border: 0;
+        font-family: 'Belanosima', sans-serif;
+        font-size: 15px;
+        width: 55%;
+        height: 20px;
+        border-radius: 10px;
+        padding: 0 15px;
+}
+
+.payment-form-container #cvv {
+        border: 0;
+        font-family: 'Belanosima', sans-serif;
+        font-size: 15px;
+        width: 10%;
+        height: 20px;
+        border-radius: 10px;
+        padding: 0 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.payment-form-container button {
+        border: 2px solid whitesmoke;
+        background-color: #03070c;
+        color: whitesmoke;
+        font-family: 'Belanosima', sans-serif;
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 8px; 
+        width: 50%;
+        margin: 20px auto auto auto;
+}
+
+.payment-form-container button:hover {
+        border: 2px solid #03070c;
+        background-color: whitesmoke;
+        color: #03070c;
+        font-family: 'Belanosima', sans-serif;
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 8px; 
+        width: 50%;
+        margin: 20px auto auto auto;
+        cursor: pointer;
+}
+
+
+/* Confirmation Message */
+
+
+.order-confirmation-message {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+    height: 30%;
+    width: 90%;
+    text-align: center;
+    border: 2px solid #03070c;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
